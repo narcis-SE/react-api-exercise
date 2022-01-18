@@ -3,6 +3,7 @@ import {Child } from "../models/what";
 import { fetchData } from "../services/WhatApiService";
 
 function RedditJson(){
+    
     const[final, setFinal]= useState<Child[]>([]);
 
     useEffect(()=>{

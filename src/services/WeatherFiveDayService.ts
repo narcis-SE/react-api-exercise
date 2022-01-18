@@ -10,6 +10,7 @@ export function fetchWeatherMap(): Promise<List[]>{
             appId: apiKey
         }
     })
+    
     .then(res=>res.data.list)
 
 }
